@@ -50,7 +50,6 @@ const knightMoves = (source, destination, numberOfRows, numberOfColumns) => {
                 isOnBoard(newRow, newColumn, numberOfRows, numberOfColumns) &&
                 !visitedCells[newRow][newColumn]
             ) {
-                visitedCells[newRow][newColumn] = true;
                 const newPosition = [newRow, newColumn];
                 cellsQueue.push(
                     new Cell(newPosition, [...path, newPosition])
