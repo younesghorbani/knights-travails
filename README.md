@@ -12,9 +12,9 @@ This project is about showing the shortest possible path from the starting squar
 ## How to run
 
 ```shell
-$ git clone https://github.com/younesghorbani/knights-travails.git
-$ cd knights-travails
-$ node script.js
+git clone https://github.com/younesghorbani/knights-travails.git
+cd knights-travails
+node script.js
 ```
 
 ## Other concepts used
